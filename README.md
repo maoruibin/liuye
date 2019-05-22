@@ -2,13 +2,20 @@
 
 ![list](http://upload-images.jianshu.io/upload_images/588640-fa6dc005e8614404.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-柳叶清单是自己开发的一个 Web 清单应用，目前网页版已经上线运行，地址如下：
+[柳叶清单](http://gudong.name/list)是自己独立开发设计的一个 Web 清单应用，目前网页版已经上线运行，地址如下：
 
 [http://gudong.name/list](http://gudong.name/list)
 
-开发初衷：[柳叶清单：管理日程的网页清单程序 \| 咕咚](https://gudong.name/2018/06/09/list-evety-day.html)
+开发初衷：[柳叶清单：管理日程的网页清单程序](https://gudong.name/2018/06/09/list-evety-day.html)
 
-于此同时，为了方便其他开发者使用清单服务，现在开放了部分 API，以便大家**开发自己的 Todo 应用或者 demo 小程序**。如果使用中有任何问题，也可以在 [issue](https://github.com/maoruibin/liuye/issue) 中进行反馈。
+于此同时，为了方便其他开发者使用清单服务，现在开放了部分 API，**以便大家开发自己的 Todo 应用或者 demo 小程序**。
+
+如果使用中有任何问题，也可以在 [issue](https://github.com/maoruibin/liuye/issue) 中进行反馈。
+
+## 关于作者
+* Android 工程师，[咕咚翻译](https://sspai.com/post/33226)等多款 APP 应用作者。
+* 微博：[大侠咕咚](http://weibo.com/maoruibin)
+* 个人主页：[咕咚](https://gudong.name/)
 
 ---
 为了对清单 API 有更好的认识，这里先简单说一下具体的数据 model 关系，目前一共有 4 个 model，分别是 User、Project、Group、Todo.
