@@ -106,7 +106,7 @@ https://waishuo.leanapp.cn/api/v1.0/todos
 
 ### 更新 Todo
 ```
-https://waishuo.leanapp.cn/api/v1.0/todos/\<todoId\>
+https://waishuo.leanapp.cn/api/v1.0/todos/<todoId>
 ```
 
 请求方式：PUT
