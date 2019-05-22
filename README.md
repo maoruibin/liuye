@@ -17,7 +17,9 @@
 * 微博：[大侠咕咚](http://weibo.com/maoruibin)
 * 个人主页：[咕咚](https://gudong.name/)
 
----
+
+## API model 关系说明
+
 为了对清单 API 有更好的认识，这里先简单说一下具体的数据 model 关系，目前一共有 4 个 model，分别是 User、Project、Group、Todo.
 
 * User: 用户信息
@@ -40,7 +42,9 @@
 ## 用户信息
 
 ### 登录
->  https://waishuo.leanapp.cn/api/v1.0/users/login
+```
+https://waishuo.leanapp.cn/api/v1.0/users/login
+```
 
 请求方式：POST 
 
@@ -52,7 +56,9 @@
 ![](https://ws1.sinaimg.cn/large/006tNbRwly1fv249o3de2j31dw0pu0uv.jpg)
 
 ### 注册
-> https://waishuo.leanapp.cn/api/v1.0/users/register
+```
+https://waishuo.leanapp.cn/api/v1.0/users/register
+```
 
 请求方式：POST 
 
@@ -63,7 +69,9 @@
 ![](https://ws1.sinaimg.cn/large/006tNbRwly1fv24kj4l6nj31do0ouwgj.jpg)
 
 ### 获取用户信息
->  https://waishuo.leanapp.cn/api/v1.0/users/<userId>
+```
+https://waishuo.leanapp.cn/api/v1.0/users/<userId>
+```
 
 请求方式：GET 
 
@@ -81,7 +89,9 @@
 ## Todo 
 
 ### 创建 todo
-> https://waishuo.leanapp.cn/api/v1.0/todos
+```
+https://waishuo.leanapp.cn/api/v1.0/todos
+```
 
 请求方式：POST 
 
@@ -95,7 +105,9 @@
 
 
 ### 更新 Todo
-> https://waishuo.leanapp.cn/api/v1.0/todos/\<todoId\>
+```
+https://waishuo.leanapp.cn/api/v1.0/todos/\<todoId\>
+```
 
 请求方式：PUT
 
@@ -111,7 +123,9 @@
 
 
 ### 删除 Todo
-> https://waishuo.leanapp.cn/api/v1.0/todos/\<todoId\>
+```
+https://waishuo.leanapp.cn/api/v1.0/todos/<todoId>
+```
 
 请求方式：DEL 
 
@@ -124,7 +138,9 @@
 ![](https://ws2.sinaimg.cn/large/006tNbRwly1fv2adkk67pj31ec05sweh.jpg)
 
 ### 获取 Todo
-> https://waishuo.leanapp.cn/api/v1.0/todos/\<todoId\>
+```
+https://waishuo.leanapp.cn/api/v1.0/todos/<todoId>
+```
 
 请求方式：GET 
 
@@ -142,7 +158,9 @@
 ## 分组 API
 
 ### 创建分组
-> https://waishuo.leanapp.cn/api/v1.0/groups
+```
+https://waishuo.leanapp.cn/api/v1.0/groups
+```
 
 请求方式：POST 
 
@@ -156,7 +174,9 @@
 
 
 ### 更新分组
-> https://waishuo.leanapp.cn/api/v1.0/groups/\<groupId\>
+```
+https://waishuo.leanapp.cn/api/v1.0/groups/<groupId>
+```
 
 请求方式：PUT
 
@@ -171,7 +191,9 @@
 ![](https://ws3.sinaimg.cn/large/006tNbRwly1fv2ax5naqij31e80eeaax.jpg)
 
 ### 获取项目分组列表
-> https://waishuo.leanapp.cn/api/v1.0/groups/projects/<projectId>
+```
+https://waishuo.leanapp.cn/api/v1.0/groups/projects/<projectId>
+```
 
 请求方式：GET
 
@@ -185,7 +207,9 @@
 
 
 ### 删除分组
-> https://waishuo.leanapp.cn/api/v1.0/groups/\<groupId\>
+```
+https://waishuo.leanapp.cn/api/v1.0/groups/<groupId>
+```
 
 请求方式：DEL 
 
@@ -202,7 +226,9 @@
 ## Project 相关 api
 
 ### 创建项目
-> https://waishuo.leanapp.cn/api/v1.0/project
+```
+https://waishuo.leanapp.cn/api/v1.0/project
+```
 
 请求方式：POST
 
@@ -215,7 +241,9 @@
 ![](https://ws1.sinaimg.cn/large/006tNbRwly1fv23lkafkcj31dk0c60te.jpg)
 
 ### 编辑项目
-> https://waishuo.leanapp.cn/api/v1.0/project
+```
+https://waishuo.leanapp.cn/api/v1.0/project
+```
 
 请求方式：PUT
 
@@ -228,7 +256,10 @@
 ![](https://ws1.sinaimg.cn/large/006tNbRwly1fv2bgplan5j31e20eawfd.jpg)
 
 ### 删除项目
-> https://waishuo.leanapp.cn/api/v1.0/projects/\<projectId\>
+```
+https://waishuo.leanapp.cn/api/v1.0/projects/<projectId>
+```
+
 > 注意：删除时，会把项目下的分组以及 todo 全部删除
 
 请求方式：DEL 
