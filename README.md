@@ -12,11 +12,30 @@
 
 如果使用中有任何问题，也可以在 [issue](https://github.com/maoruibin/liuye/issue) 中进行反馈。
 
-## 关于作者
-* Android 工程师，[咕咚翻译](https://sspai.com/post/33226)等多款 APP 应用作者。
-* 微博：[大侠咕咚](http://weibo.com/maoruibin)
-* 个人主页：[咕咚](https://gudong.name/)
+## 目录
+* [API model 关系说明](#api-model-关系说明)
+* [用户信息](#用户信息)
+    * [登录](#登录)
+    * [注册](#注册)
+    * [获取用户信息](#获取用户信息)
+* [Todo](#todo)
+    * [创建 todo](#创建-todo)
+    * [更新 Todo](#更新-todo)
+    * [删除 Todo](#删除-todo)
+    * [获取 Todo](#获取-todo)
+* [分组 API](#分组-api)
+    * [创建分组](#创建分组)
+    * [更新分组](#更新分组)
+    * [获取项目分组列表](#获取项目分组列表)
+    * [删除分组](#删除分组)
+* [Project 相关 api](#project-相关-api)
+    * [创建项目](#创建项目)
+    * [编辑项目](#编辑项目)
+    * [删除项目](#删除项目)
 
+* [关于作者](#关于作者)    
+
+>目录生成 by [github-markdown-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## API model 关系说明
 
@@ -265,5 +284,10 @@ https://waishuo.leanapp.cn/api/v1.0/projects/<projectId>
 请求方式：DEL 
 
 > 说明：url 请求参数中最后需要指定 projectId
+
+## 关于作者
+* Android 工程师，[咕咚翻译](https://sspai.com/post/33226)等多款 APP 应用作者。
+* 微博：[大侠咕咚](http://weibo.com/maoruibin)
+* 个人主页：[咕咚](https://gudong.name/)
 
 
