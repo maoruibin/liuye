@@ -65,6 +65,8 @@
 https://waishuo.leanapp.cn/api/v1.0/users/login
 ```
 
+> 目前仅支持邮箱登录，暂不支持用户名登录
+
 请求方式：POST 
 
 请求参数：
